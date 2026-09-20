@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "atlas_sheets": {
+      "type": "http",
+      "url": "http://127.0.0.1:18765/sheets/mcp",
+      "bearer_token_env_var": "ATLAS_BEARER_TOKEN"
+    }
+  }
+}

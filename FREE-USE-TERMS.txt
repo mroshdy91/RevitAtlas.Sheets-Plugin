@@ -1,0 +1,26 @@
+RevitAtlas Free Use Terms — 20 September 2026
+
+Copyright (c) 2026 ROSHDY (mroshdy91). All rights reserved except as granted below.
+
+You may download, install and use official RevitAtlas releases without charge for
+personal, educational, professional and commercial work. You may keep backup
+copies and allow AI agents acting on your behalf to read the supplied skills,
+manifests and documentation and run the supplied installation helpers.
+
+RevitAtlas is proprietary software, not open-source software. Public plugin
+repositories distribute the integration surface, guidance and installation
+helpers. The engine, broker and implementation source remain private. No right
+to obtain that source, sublicense or sell the software, or incorporate its code
+or skills into another product is granted. No permission to modify or redistribute
+the software is granted except where an applicable third-party license or law
+permits it. Do not remove copyright or proprietary notices.
+
+These terms do not restrict your ownership or use of your own models, drawings
+or other work produced using RevitAtlas. Third-party components retain their own
+licenses, supplied with the runtime. Autodesk Revit and Autodesk content are not
+included; users must obtain and license those separately.
+
+The software is provided AS IS, without warranties of any kind. To the extent
+permitted by applicable law, the author is not liable for losses arising from its
+use. Review engineering outputs before relying on them. RevitAtlas is independent
+of, and is not endorsed or supported by, Autodesk.

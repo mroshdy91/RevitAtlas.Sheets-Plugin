@@ -1,0 +1,22 @@
+{
+  "name": "atlas-sheets",
+  "version": "0.1.0-beta.1",
+  "description": "Create and edit Revit drawing views, sheets and layouts. Requires Atlas Core.",
+  "author": {
+    "name": "ROSHDY"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Atlas Sheets",
+    "shortDescription": "Create and edit Revit drawing views, sheets and layouts. Requires Atlas Core.",
+    "longDescription": "Create and edit Revit drawing views, sheets and layouts. Requires Atlas Core. Scoped public beta for Revit 2025 and 2026; discover supported actions and limitations through Atlas Core.",
+    "developerName": "ROSHDY",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": "Check Atlas status and help me with Revit sheets."
+  },
+  "mcpServers": "./.mcp.json"
+}

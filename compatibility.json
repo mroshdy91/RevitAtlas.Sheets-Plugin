@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "plugin": "atlas-sheets",
+  "release_state": "public-beta",
+  "target_revit_versions": [
+    "2025",
+    "2026"
+  ],
+  "qualified_public_revit_versions": [
+    "2025",
+    "2026"
+  ],
+  "requires": [
+    "atlas-core"
+  ],
+  "runtime_included": false,
+  "publication_ready": true,
+  "version": "0.1.0-beta.1",
+  "core_version": "0.1.0-beta.1",
+  "qualification_scope": "Scoped beta; see RELEASE-READINESS.md"
+}

@@ -1,0 +1,34 @@
+{
+  "publication_ready": true,
+  "version": "0.1.0-beta.1",
+  "files": [
+    {
+      "path": ".codex-plugin/plugin.json",
+      "sha256": "b3b07b14f5d007a8b280fbac85c3b215262d7c9430261be2dea822ccc591dacf"
+    },
+    {
+      "path": ".mcp.json",
+      "sha256": "5d458f008ca308bd33b8cdb577ad54584f37b8e42ceac84fc96879cc883822b3"
+    },
+    {
+      "path": "compatibility.json",
+      "sha256": "1192e344422267c96550159753cce557b320e62072d812505b37fb97a4b86d28"
+    },
+    {
+      "path": "FREE-USE-TERMS.txt",
+      "sha256": "628428c49adf5eddb111c65ba100e89f9e9a60a44aebe7c7060e25166bad76ad"
+    },
+    {
+      "path": "README.md",
+      "sha256": "c9d289b0249f595f4cd329309d90a1ee33d0a37f8c7350de298e5d13d56b8a8e"
+    },
+    {
+      "path": "RELEASE-READINESS.md",
+      "sha256": "1b348d4836aa24beb385d356a761bb9b12920921b4311509c78a2a42eac51bf9"
+    },
+    {
+      "path": "skills/use-atlas-sheets/SKILL.md",
+      "sha256": "359b3197903858cb12c99e29f3cb6d5243554b8c65898440bf5c79f72faca734"
+    }
+  ]
+}
