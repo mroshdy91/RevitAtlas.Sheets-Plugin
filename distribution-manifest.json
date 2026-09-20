@@ -1,17 +1,21 @@
 {
-  "version": "0.1.0-beta.3",
+  "version": "0.1.0-beta.4",
   "files": [
     {
       "path": ".claude-plugin/plugin.json",
-      "sha256": "459ebd2ab3bcbfc2269148d2802f1318214be13eb3079b906af3a15cb4c2cd25"
+      "sha256": "28bb45d66939c125ffc37642d8a830e70538e70ae631d07f6dbb492824b809cd"
     },
     {
       "path": ".codex-plugin/plugin.json",
-      "sha256": "c121ed739e949f7256e9df19ec0b342f2f5bd58f71ee1f5691155cf33c0e580b"
+      "sha256": "73834f4b2334a2c7359379e24dc1455c1cbcd78ff015f2864e01b9f22a268b93"
     },
     {
       "path": ".cursor-plugin/plugin.json",
-      "sha256": "81d4cc32b86defd29ad8202832252de64c7d504485998362e5bf88239b2cd51d"
+      "sha256": "ea7fe13037d3b381f722443f58bab1aa6d66597810e74bebd107f0dd805c07d2"
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9"
     },
     {
       "path": ".mcp.json",
@@ -19,19 +23,19 @@
     },
     {
       "path": ".zcode-plugin/plugin.json",
-      "sha256": "a9dc96f31f9fd7de2d5d36c5dce16a235c49e01299ea7c38ac4d69f69b92c15d"
+      "sha256": "898465dd113b23443d1762e3a1070998e0e9defe5a632bb2170aaecab81b8674"
     },
     {
       "path": "CLIENT-QUALIFICATION.json",
-      "sha256": "3271e9c09f70302c5a45a6e6e444206fdfdd4fa2aecf6a0c891bc90df3d2f020"
+      "sha256": "f95d71c7d457660dd570e2c3d64a4079e584c9017fe23381fd6155cbb640dcf0"
     },
     {
       "path": "CLIENTS.md",
-      "sha256": "b8446d81fd60f1b15ff0db94efa838d111e4ea2ba00cf9a5faef3e7ff0835c17"
+      "sha256": "12301fbd40d717643fa9add457690ae1d8df4fd7399498444542d4ae5dc8b0ef"
     },
     {
       "path": "compatibility.json",
-      "sha256": "ba12fbc93e8060be14fc1870df5998781039be8c2f564f43b18890b919f05567"
+      "sha256": "43d54e18750bdc7c18ce01d1b38daea4ac8977c4712e07cff6f335a178fc9aea"
     },
     {
       "path": "FREE-USE-TERMS.txt",
@@ -39,7 +43,7 @@
     },
     {
       "path": "gemini-extension.json",
-      "sha256": "1929685e7fb79969ae2ea8288e890e8237d6a130c12d16afc19294d5cfb5c56d"
+      "sha256": "e37f12b49cc8e166712f58b291a9cba2d4e29728752463315e87b37d6c74ef4c"
     },
     {
       "path": "mcp.codex.json",
@@ -51,15 +55,15 @@
     },
     {
       "path": "plugin.json",
-      "sha256": "20665170b6e07c6db31b56a7cb9502c7d85de065544d76620958c4d607a3bb62"
+      "sha256": "ebbe437d9ea4add7028952ee7c6a6d9becfbfd8e08dd6aec07912c27b1ecb2ac"
     },
     {
       "path": "qwen-extension.json",
-      "sha256": "1929685e7fb79969ae2ea8288e890e8237d6a130c12d16afc19294d5cfb5c56d"
+      "sha256": "e37f12b49cc8e166712f58b291a9cba2d4e29728752463315e87b37d6c74ef4c"
     },
     {
       "path": "README.md",
-      "sha256": "685cf8628d561f7267dd30c9c1429550b546a67ba988e7799acb48683e12733f"
+      "sha256": "d6199c305bda55a0c6aaa939c061113166ddc2cd5377a7d925c910d28c7dac1c"
     },
     {
       "path": "RELEASE-READINESS.md",
@@ -67,7 +71,7 @@
     },
     {
       "path": "scripts/atlas-client-config.ps1",
-      "sha256": "fa325eba004f92cee0a7c5ba9dcd8d4eff8aa5d9c76462af7aa320d7145c6a85"
+      "sha256": "f17bab5788b716f187a0e988a03b530f205bc1d5b36ab8106b4b56d10c725438"
     },
     {
       "path": "scripts/atlas-mcp.ps1",

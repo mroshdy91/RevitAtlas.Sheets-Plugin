@@ -2,7 +2,7 @@
 
 Create and edit Revit drawing views, sheets and layouts. Requires Atlas Core.
 
-**Public beta 0.1.0-beta.3. Windows x64; Revit 2025 and 2026.** Free personal/commercial use; implementation source remains private. See [terms](FREE-USE-TERMS.txt).
+**Public beta 0.1.0-beta.4. Windows x64; Revit 2025 and 2026.** Free personal/commercial use; implementation source remains private. See [terms](FREE-USE-TERMS.txt).
 
 Install Atlas Core plus the specialists you need from [Atlas Marketplace](https://github.com/mroshdy91/Atlas-Marketplace), using [your client's installation route](CLIENTS.md). Then ask: **Set up RevitAtlas and check its connection to Revit.** Core's pinned setup helper installs the shared runtime and provisions the connection; users do not paste tokens or need a development SDK. Licensed Revit is a separate prerequisite.
 

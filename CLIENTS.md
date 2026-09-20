@@ -17,7 +17,7 @@ This package targets current documented formats, not every historical client ver
 | GitHub Copilot app | Use the app's supported Agent Plugins install route, with a local Windows execution host | Agent Plugins; host must be verified |
 | Factory Droid | `droid plugin marketplace add https://github.com/mroshdy91/Atlas-Marketplace`; read the registered name with `droid plugin marketplace list`, then install | Claude-compatible plugin translation |
 | Qwen Code | `qwen extensions install mroshdy91/Atlas-Marketplace:atlas-core` and specialists, or install each public plugin repository | Qwen extension/Claude marketplace |
-| Gemini CLI | `gemini extensions install https://github.com/mroshdy91/RevitAtlas.Core-Plugin --ref v0.1.0-beta.3`, then chosen plugin repositories | Gemini extension; gallery submission is separate |
+| Gemini CLI | `gemini extensions install https://github.com/mroshdy91/RevitAtlas.Core-Plugin --ref v0.1.0-beta.4`, then chosen plugin repositories | Gemini extension; gallery submission is separate |
 | Kiro | Powers → Add Custom Power → import each public plugin repository; install Core first | Agent Plugins power |
 | Hermes Agent | Install each public plugin repository with `hermes plugins install owner/repository --no-enable`, inspect, then enable | Agent Plugins; requires Windows-local MCP execution |
 | OpenClaw | Install the public plugin repository through its documented bundle install route | Agent Plugins bundle; requires Windows-local MCP execution |
@@ -50,7 +50,7 @@ Checked 20 September 2026 on Windows. Native engine qualification remains the re
 | Cursor, VS Code, Factory, Kiro, Hermes, OpenClaw | Published formats/documentation researched; applicable manifests generated; standard schemas validated | Individual client execution unqualified |
 | Antigravity and generic exports | Export structure, preserved skills/setup, absolute adapter paths and refusal to overwrite tested | Individual client execution unqualified |
 
-Do not treat schema validation, a marketplace listing or provider documentation as a live acceptance test. Supported format routes are available for beta testing; client-specific limits remain visible. Native runtime files are unchanged.
+Do not treat schema validation, a marketplace listing or provider documentation as a live acceptance test. Supported format routes are available for beta testing; client-specific limits remain visible. Native runtime files are unchanged. Beta.4 fixes direct PowerShell 5.1 setup discovery and pins checkout line endings; the published setup helper is checked in both Windows PowerShell 5.1 and PowerShell 7.
 
 ## Export a connection or Antigravity plugin
 

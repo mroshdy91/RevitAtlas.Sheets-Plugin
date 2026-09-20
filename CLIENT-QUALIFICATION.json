@@ -1,9 +1,9 @@
 {
   "date": "2026-09-20",
-  "release": "0.1.0-beta.3",
+  "release": "0.1.0-beta.4",
   "runtime_changed": false,
   "runtime_version": "0.1.0-beta.1",
-  "offline_checks": 23,
+  "offline_checks": 25,
   "native_adapter_checks": 10,
   "installed_codex_checks": 5,
   "final_adapter_connections": 4,

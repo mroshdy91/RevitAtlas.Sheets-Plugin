@@ -1,7 +1,7 @@
 {
   "format_version": 2,
   "plugin": "atlas-sheets",
-  "version": "0.1.0-beta.3",
+  "version": "0.1.0-beta.4",
   "core_runtime_version": "0.1.0-beta.1",
   "qualified_native_revit_versions": [
     "2025",
