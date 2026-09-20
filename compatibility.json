@@ -1,22 +1,18 @@
 {
-  "format_version": 1,
+  "format_version": 2,
   "plugin": "atlas-sheets",
-  "release_state": "public-beta",
-  "target_revit_versions": [
-    "2025",
-    "2026"
-  ],
-  "qualified_public_revit_versions": [
+  "version": "0.1.0-beta.3",
+  "core_runtime_version": "0.1.0-beta.1",
+  "qualified_native_revit_versions": [
     "2025",
     "2026"
   ],
   "requires": [
     "atlas-core"
   ],
+  "client_evidence": "CLIENTS.md",
   "runtime_included": false,
+  "release_state": "qualified_client_packaging_beta",
   "publication_ready": true,
-  "version": "0.1.0-beta.2",
-  "core_version": "0.1.0-beta.1",
-  "qualification_scope": "Scoped beta; see RELEASE-READINESS.md",
-  "runtime_version": "0.1.0-beta.1"
+  "universal_client_qualification": false
 }

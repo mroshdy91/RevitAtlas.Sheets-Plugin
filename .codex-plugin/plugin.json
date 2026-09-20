@@ -1,6 +1,6 @@
 {
   "name": "atlas-sheets",
-  "version": "0.1.0-beta.2",
+  "version": "0.1.0-beta.3",
   "description": "Create and edit Revit drawing views, sheets and layouts. Requires Atlas Core.",
   "author": {
     "name": "ROSHDY"
@@ -18,5 +18,5 @@
     ],
     "defaultPrompt": "Check Atlas status and help me with Revit sheets."
   },
-  "mcpServers": "./.mcp.json"
+  "mcpServers": "./mcp.codex.json"
 }

@@ -1,4 +1,5 @@
 {
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
   "mcpServers": {
     "atlas_sheets": {
       "type": "stdio",
@@ -8,7 +9,7 @@
         "-NoProfile",
         "-NonInteractive",
         "-File",
-        "${CLAUDE_PLUGIN_ROOT}/scripts/atlas-mcp.ps1",
+        "./scripts/atlas-mcp.ps1",
         "-Surface",
         "sheets"
       ]

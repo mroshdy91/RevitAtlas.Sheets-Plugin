@@ -1,18 +1,13 @@
 # Atlas Sheets
 
-Project drawing views, sheets, viewport placement and layout.
+Create and edit Revit drawing views, sheets and layouts. Requires Atlas Core.
 
-**Public beta 0.1.0-beta.2 — Windows x64, Revit 2025 and 2026.** Free for personal and commercial use under [Free Use Terms](FREE-USE-TERMS.txt). Implementation source remains private.
+**Public beta 0.1.0-beta.3. Windows x64; Revit 2025 and 2026.** Free personal/commercial use; implementation source remains private. See [terms](FREE-USE-TERMS.txt).
 
-## Install and start
+Install Atlas Core plus the specialists you need from [Atlas Marketplace](https://github.com/mroshdy91/Atlas-Marketplace), using [your client's installation route](CLIENTS.md). Then ask: **Set up RevitAtlas and check its connection to Revit.** Core's pinned setup helper installs the shared runtime and provisions the connection; users do not paste tokens or need a development SDK. Licensed Revit is a separate prerequisite.
 
-1. Add [Atlas Marketplace](https://github.com/mroshdy91/Atlas-Marketplace) to your AI client.
-2. Install **atlas-core** and the specialists you need: **atlas-family**, **atlas-sheets**, **atlas-annotations**.
-3. Ask your agent: **Set up RevitAtlas and check its connection to Revit.**
-4. Save and close Revit if setup requests it. Restart your AI client once when requested, then open Revit.
+Includes Codex, Claude Code, ZCode and Cursor manifests, portable Agent Plugins 1.0 packaging, and Gemini/Qwen extension manifests. Packaging support is distinct from an independently tested client: [compatibility and evidence](CLIENTS.md). Provider account/plan, trust prompts and gallery approval remain under the client's control.
 
-The agent runs Core's packaged setup helper, verifies the public runtime download and configures the local connection. No private-repository access, development SDK or manual token entry is needed. Licensed Revit must already be installed. Marketplace installation supplies tools and guidance; Core's one-time Windows setup supplies the native integration.
+All four Revit plugins reuse Core runtime **0.1.0-beta.1**. Native engines and authoring tools are unchanged in this packaging release. Non-HTTP clients may run one lightweight stdio connection adapter per active plugin; these exit when their client connection closes. No extra engine, broker service, scheduled task, or server port is installed. HAPAtlas is separate.
 
-All four Revit plugins share **one broker and one version-matched engine per Revit process**. Specialists start no extra engine. Sheets and Annotations can work with existing project content without Family. HAPAtlas is a separate product.
-
-See [runtime setup](https://github.com/mroshdy91/RevitAtlas.Core-Plugin/blob/v0.1.0-beta.1/RUNTIME.md) and [supported scope and limitations](RELEASE-READINESS.md). The beta is not universal production qualification. Keep original models and review generated engineering outputs.
+This is scoped beta support, not universal family qualification or a completed 15-delivery benchmark. Review engineering outputs. Formal drawing revision/cloud authoring, schedule authoring and cloud/worksharing remain outside the released scope. See [Core runtime qualification](https://github.com/mroshdy91/RevitAtlas.Core-Plugin/blob/v0.1.0-beta.1/RELEASE-READINESS.md).

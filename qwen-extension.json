@@ -1,14 +1,16 @@
 {
+  "name": "atlas-sheets",
+  "version": "0.1.0-beta.3",
+  "description": "Create and edit Revit drawing views, sheets and layouts. Requires Atlas Core.",
   "mcpServers": {
     "atlas_sheets": {
-      "type": "stdio",
       "command": "powershell.exe",
       "args": [
         "-NoLogo",
         "-NoProfile",
         "-NonInteractive",
         "-File",
-        "${CLAUDE_PLUGIN_ROOT}/scripts/atlas-mcp.ps1",
+        "${extensionPath}/scripts/atlas-mcp.ps1",
         "-Surface",
         "sheets"
       ]

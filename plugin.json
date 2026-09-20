@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "atlas-sheets",
+  "version": "0.1.0-beta.3",
+  "description": "Create and edit Revit drawing views, sheets and layouts. Requires Atlas Core.",
+  "author": {
+    "name": "ROSHDY"
+  },
+  "homepage": "https://github.com/mroshdy91/RevitAtlas.Sheets-Plugin",
+  "repository": "https://github.com/mroshdy91/RevitAtlas.Sheets-Plugin",
+  "license": "LicenseRef-Atlas-Free-Use",
+  "keywords": [
+    "revit",
+    "bim",
+    "sheets"
+  ]
+}
