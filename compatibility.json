@@ -15,7 +15,8 @@
   ],
   "runtime_included": false,
   "publication_ready": true,
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.2",
   "core_version": "0.1.0-beta.1",
-  "qualification_scope": "Scoped beta; see RELEASE-READINESS.md"
+  "qualification_scope": "Scoped beta; see RELEASE-READINESS.md",
+  "runtime_version": "0.1.0-beta.1"
 }

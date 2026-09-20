@@ -2,7 +2,7 @@
 
 Project drawing views, sheets, viewport placement and layout.
 
-**Public beta 0.1.0-beta.1 — Windows x64, Revit 2025 and 2026.** Free for personal and commercial use under [Free Use Terms](FREE-USE-TERMS.txt). Implementation source remains private.
+**Public beta 0.1.0-beta.2 — Windows x64, Revit 2025 and 2026.** Free for personal and commercial use under [Free Use Terms](FREE-USE-TERMS.txt). Implementation source remains private.
 
 ## Install and start
 

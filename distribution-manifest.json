@@ -1,10 +1,10 @@
 {
   "publication_ready": true,
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.2",
   "files": [
     {
       "path": ".codex-plugin/plugin.json",
-      "sha256": "b3b07b14f5d007a8b280fbac85c3b215262d7c9430261be2dea822ccc591dacf"
+      "sha256": "404efaa600a8424f801ec96e667bd38249dde0a42b791fbaa85511201a6be328"
     },
     {
       "path": ".mcp.json",
@@ -12,7 +12,7 @@
     },
     {
       "path": "compatibility.json",
-      "sha256": "1192e344422267c96550159753cce557b320e62072d812505b37fb97a4b86d28"
+      "sha256": "3e2faa5bf51aa3c8ebad39f738abecd62892f132e4c8c04a6b08b42015659f1a"
     },
     {
       "path": "FREE-USE-TERMS.txt",
@@ -20,7 +20,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "c9d289b0249f595f4cd329309d90a1ee33d0a37f8c7350de298e5d13d56b8a8e"
+      "sha256": "0ad5747daa7c8d64bacfce5b284aabc92b0e5523c3722c82bf5c71156d16e818"
     },
     {
       "path": "RELEASE-READINESS.md",
@@ -28,7 +28,7 @@
     },
     {
       "path": "skills/use-atlas-sheets/SKILL.md",
-      "sha256": "359b3197903858cb12c99e29f3cb6d5243554b8c65898440bf5c79f72faca734"
+      "sha256": "461ee1bc0e6cd728bb69b74d728b4526e9917b7642725fd26f025f79da588948"
     }
   ]
 }
