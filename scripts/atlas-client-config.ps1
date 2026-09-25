@@ -9,6 +9,13 @@ $ErrorActionPreference='Stop'
 $adapter=Join-Path $PSScriptRoot 'atlas-mcp.ps1'
 if(!(Test-Path -LiteralPath $adapter -PathType Leaf)){throw 'ADAPTER_MISSING'}
 $name='atlas_'+$Surface
+$interfaceArgs=@()
+$interfacePath=Join-Path (Split-Path $PSScriptRoot -Parent) 'interface.json'
+if(Test-Path -LiteralPath $interfacePath){
+ $selectedInterface=Get-Content -LiteralPath $interfacePath -Raw | ConvertFrom-Json
+ if($selectedInterface.interface_version -cne '2.0-candidate' -or $selectedInterface.catalog_sha256 -cnotmatch '^[a-f0-9]{64}$'){throw 'INTERFACE_IDENTITY_INVALID'}
+ $interfaceArgs=@('-Interface','v2-candidate')
+}
 if($Client -eq 'antigravity'){
  $root=Split-Path $PSScriptRoot -Parent
  $manifest=Get-Content -LiteralPath (Join-Path $root 'plugin.json') -Raw | ConvertFrom-Json
@@ -16,24 +23,24 @@ if($Client -eq 'antigravity'){
  $full=[IO.Path]::GetFullPath($OutputPath)
  if(Test-Path -LiteralPath $full){throw 'OUTPUT_EXISTS: choose a fresh plugin directory.'}
  [void](New-Item -ItemType Directory -Path $full -ErrorAction Stop)
- foreach($entry in @('skills','scripts','CLIENTS.md','FREE-USE-TERMS.txt','runtime-release.json','RUNTIME.md')){
+ foreach($entry in @('skills','scripts','CLIENTS.md','FREE-USE-TERMS.txt','runtime-release.json','RUNTIME.md','interface.json')){
   $source=Join-Path $root $entry
   if(Test-Path -LiteralPath $source){Copy-Item -LiteralPath $source -Destination $full -Recurse -ErrorAction Stop}
  }
  $utf8=[Text.UTF8Encoding]::new($false)
  [IO.File]::WriteAllText((Join-Path $full 'plugin.json'),(@{name=$manifest.name;description=$manifest.description}|ConvertTo-Json),$utf8)
- $arguments=@('-NoLogo','-NoProfile','-NonInteractive','-File',(Join-Path $full 'scripts/atlas-mcp.ps1'),'-Surface',$Surface)
+ $arguments=@('-NoLogo','-NoProfile','-NonInteractive','-File',(Join-Path $full 'scripts/atlas-mcp.ps1'),'-Surface',$Surface)+$interfaceArgs
  [IO.File]::WriteAllText((Join-Path $full 'mcp_config.json'),(@{mcpServers=@{$name=@{command='powershell.exe';args=$arguments}}}|ConvertTo-Json -Depth 10),$utf8)
  @{status='exported';client=$Client;path=$full;contains_credentials=$false;next_action='Install this local plugin using agy plugin install, or export directly into the documented plugin directory. Keep this export directory: the connection uses its absolute script path. Re-export to a fresh directory for upgrades.'}|ConvertTo-Json
  exit 0
 }
-$arguments=@('-NoLogo','-NoProfile','-NonInteractive','-File',([IO.Path]::GetFullPath($adapter)),'-Surface',$Surface)
+$arguments=@('-NoLogo','-NoProfile','-NonInteractive','-File',([IO.Path]::GetFullPath($adapter)),'-Surface',$Surface)+$interfaceArgs
 $server=[ordered]@{command='powershell.exe';args=$arguments}
 switch($Client){
  'generic' {$result=@{mcpServers=@{$name=$server}}}
  'vscode' {$result=@{servers=@{$name=(@{type='stdio'}+$server)}}}
  'opencode' {$result=@{mcp=@{$name=@{type='local';command=(@('powershell.exe')+$arguments);enabled=$true}}}}
- 'continue' {$result=@{name=('Atlas '+$Surface);version='0.1.0-beta.4';schema='v1';mcpServers=@((@{name=$name}+$server))}}
+ 'continue' {$result=@{name=('Atlas '+$Surface);version='2.0.0-alpha.1';schema='v1';mcpServers=@((@{name=$name}+$server))}}
 }
 $full=[IO.Path]::GetFullPath($OutputPath)
 $file=[IO.File]::Open($full,[IO.FileMode]::CreateNew,[IO.FileAccess]::Write,[IO.FileShare]::None)

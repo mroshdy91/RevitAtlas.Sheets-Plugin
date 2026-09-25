@@ -11,7 +11,9 @@
         "-File",
         "./scripts/atlas-mcp.ps1",
         "-Surface",
-        "sheets"
+        "sheets",
+        "-Interface",
+        "v2-candidate"
       ]
     }
   }

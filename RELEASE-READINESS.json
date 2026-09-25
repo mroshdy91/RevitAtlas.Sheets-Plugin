@@ -1,0 +1,100 @@
+{
+  "status": "scoped_release_qualified",
+  "runtime_version": "2.0.0-alpha.1",
+  "qualified_native_revit_versions": [
+    "2025",
+    "2026"
+  ],
+  "gates": {
+    "installation_lifecycle": {
+      "status": "passed",
+      "decision": "Accept the new public installer based on actual compiled package install, idempotent reinstall, upgrade from the previous public beta, exact rollback and uninstall in a clean isolated profile, plus negative synthetic lifecycle coverage.",
+      "limitations": [
+        "Scoped alpha only. Available actions exceed the verified engineering scenarios; each delivered model needs its own acceptance.",
+        "The Grand Refactor, broad migration, performance and engineering corpus remain incomplete.",
+        "Revit 2026 starters currently include the qualified Mark tag only; recipe discovery does not qualify all recipe execution.",
+        "General MEP is outside the four-plugin release. Checkpointed plans are enabled; single-document atomic plans are not admitted.",
+        "The clean profile uses the installed Autodesk prerequisites on the development PC and simulated Windows user environment storage. It is not a second-PC or every-enterprise-policy claim."
+      ],
+      "checks": 1
+    },
+    "installed_client": {
+      "status": "passed",
+      "decision": "Accept the exact v2 interface and runtime binary set based on installed cached four-plugin verification and actual current Codex tools for both Revit years. Public packaging uses the same frozen transport and interface; final promoted public-profile connection is separately required before marketplace publication.",
+      "limitations": [
+        "Scoped alpha only. Available actions exceed the verified engineering scenarios; each delivered model needs its own acceptance.",
+        "The Grand Refactor, broad migration, performance and engineering corpus remain incomplete.",
+        "Revit 2026 starters currently include the qualified Mark tag only; recipe discovery does not qualify all recipe execution.",
+        "General MEP is outside the four-plugin release. Checkpointed plans are enabled; single-document atomic plans are not admitted.",
+        "Native HTTP and local portable transport evidence does not qualify every AI host. Installation and full native authoring are separate client evidence levels."
+      ],
+      "checks": 1
+    },
+    "native_2025": {
+      "status": "passed",
+      "decision": "Accept the exact unchanged 2025 engine for the measured Core/Family lifecycle and plan fixture, installed catalog/lifecycle checks and fresh 29-check annotation fixture.",
+      "limitations": [
+        "Scoped alpha only. Available actions exceed the verified engineering scenarios; each delivered model needs its own acceptance.",
+        "The Grand Refactor, broad migration, performance and engineering corpus remain incomplete.",
+        "Revit 2026 starters currently include the qualified Mark tag only; recipe discovery does not qualify all recipe execution.",
+        "General MEP is outside the four-plugin release. Checkpointed plans are enabled; single-document atomic plans are not admitted.",
+        "The 2026 sheet/quantity scenarios are not relabeled as fresh 2025 evidence; broader 2025 action coverage remains outside this scoped decision."
+      ],
+      "checks": 1
+    },
+    "native_2026": {
+      "status": "passed",
+      "decision": "Accept the exact unchanged 2026 engine for the eight retained complete fixtures covering native lifecycle, connector plans, checked scripts, assembly quantities, schedules, sheets, annotations and drawing plans.",
+      "limitations": [
+        "Scoped alpha only. Available actions exceed the verified engineering scenarios; each delivered model needs its own acceptance.",
+        "The Grand Refactor, broad migration, performance and engineering corpus remain incomplete.",
+        "Revit 2026 starters currently include the qualified Mark tag only; recipe discovery does not qualify all recipe execution.",
+        "General MEP is outside the four-plugin release. Checkpointed plans are enabled; single-document atomic plans are not admitted."
+      ],
+      "checks": 1
+    },
+    "source_and_dependency_audit": {
+      "status": "passed",
+      "decision": "Accept the sanitized compiled runtime distribution boundary and included notices after independent technical review: all 538 hashes and unchanged binary/source/build pins checked, 25 dependency permission/notice sets retained, private test records replaced by public projections, no forbidden content found.",
+      "limitations": [
+        "Scoped alpha only. Available actions exceed the verified engineering scenarios; each delivered model needs its own acceptance.",
+        "The Grand Refactor, broad migration, performance and engineering corpus remain incomplete.",
+        "Revit 2026 starters currently include the qualified Mark tag only; recipe discovery does not qualify all recipe execution.",
+        "General MEP is outside the four-plugin release. Checkpointed plans are enabled; single-document atomic plans are not admitted.",
+        "Compiled runtime technical redistribution review only; public client trees and anonymous archive verification are additional publication checks. Binaries remain inspectable and unsigned."
+      ],
+      "checks": 1
+    },
+    "visual_acceptance": {
+      "status": "passed",
+      "decision": "Accept the native capture and image-bound review path on both exact engines. The delegated reviewer and parent inspected both images and found the complete measured rectangular solid in frame, with visible top and two side faces, and confirmed the native judgment records.",
+      "limitations": [
+        "Scoped alpha only. Available actions exceed the verified engineering scenarios; each delivered model needs its own acceptance.",
+        "The Grand Refactor, broad migration, performance and engineering corpus remain incomplete.",
+        "Revit 2026 starters currently include the qualified Mark tag only; recipe discovery does not qualify all recipe execution.",
+        "General MEP is outside the four-plugin release. Checkpointed plans are enabled; single-document atomic plans are not admitted.",
+        "Visual acceptance is limited to the disposable 100 by 80 by 50 mm block fixture and camera framing. It does not certify arbitrary family appearance, drawing layout or engineering quality."
+      ],
+      "checks": 1
+    }
+  },
+  "limitations": [
+    "Compiled runtime technical redistribution review only; public client trees and anonymous archive verification are additional publication checks. Binaries remain inspectable and unsigned.",
+    "General MEP is outside the four-plugin release. Checkpointed plans are enabled; single-document atomic plans are not admitted.",
+    "Native HTTP and local portable transport evidence does not qualify every AI host. Installation and full native authoring are separate client evidence levels.",
+    "Revit 2026 starters currently include the qualified Mark tag only; recipe discovery does not qualify all recipe execution.",
+    "Scoped alpha only. Available actions exceed the verified engineering scenarios; each delivered model needs its own acceptance.",
+    "The 2026 sheet/quantity scenarios are not relabeled as fresh 2025 evidence; broader 2025 action coverage remains outside this scoped decision.",
+    "The Grand Refactor, broad migration, performance and engineering corpus remain incomplete.",
+    "The clean profile uses the installed Autodesk prerequisites on the development PC and simulated Windows user environment storage. It is not a second-PC or every-enterprise-policy claim.",
+    "Visual acceptance is limited to the disposable 100 by 80 by 50 mm block fixture and camera framing. It does not certify arbitrary family appearance, drawing layout or engineering quality."
+  ],
+  "broad_production_ready": false,
+  "interface_identity": {
+    "interface_version": "2.0-candidate",
+    "catalog_sha256": "c3d8f64b37b967820a6674a2f001deae497c21b1fcfb3836679a6d0771581b36",
+    "catalog_file_sha256": "b3374b6b519d13761c8505f6ef87327065b4cd30a3445cfd76d1424ac05f6e04",
+    "source_contract_sha256": "9676b455b66167fc9492389287de6c5624136edc30522b290b24d86e35dcd569",
+    "route_map_sha256": "ba0179bbe7f2eb984b3de5b6e5867a2b742b16b36f1ff40ed71770f4349bb5ac"
+  }
+}

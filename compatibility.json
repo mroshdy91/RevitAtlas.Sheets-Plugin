@@ -1,18 +1,24 @@
 {
   "format_version": 2,
   "plugin": "atlas-sheets",
-  "version": "0.1.0-beta.4",
-  "core_runtime_version": "0.1.0-beta.1",
+  "version": "2.0.0-alpha.1",
+  "requires": [
+    "atlas-core"
+  ],
+  "interface_identity": {
+    "interface_version": "2.0-candidate",
+    "catalog_sha256": "c3d8f64b37b967820a6674a2f001deae497c21b1fcfb3836679a6d0771581b36",
+    "catalog_file_sha256": "b3374b6b519d13761c8505f6ef87327065b4cd30a3445cfd76d1424ac05f6e04",
+    "source_contract_sha256": "9676b455b66167fc9492389287de6c5624136edc30522b290b24d86e35dcd569",
+    "route_map_sha256": "ba0179bbe7f2eb984b3de5b6e5867a2b742b16b36f1ff40ed71770f4349bb5ac"
+  },
+  "runtime_version": "2.0.0-alpha.1",
+  "runtime_manifest_sha256": "e1a79121920458014d51a234ee3c8dc4dd954dcfa5cb45091c4d279787263593",
   "qualified_native_revit_versions": [
     "2025",
     "2026"
   ],
-  "requires": [
-    "atlas-core"
-  ],
-  "client_evidence": "CLIENTS.md",
   "runtime_included": false,
-  "release_state": "qualified_client_packaging_beta",
   "publication_ready": true,
-  "universal_client_qualification": false
+  "release_state": "published"
 }

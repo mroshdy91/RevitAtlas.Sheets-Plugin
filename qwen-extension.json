@@ -1,6 +1,6 @@
 {
   "name": "atlas-sheets",
-  "version": "0.1.0-beta.4",
+  "version": "2.0.0-alpha.1",
   "description": "Create and edit Revit drawing views, sheets and layouts. Requires Atlas Core.",
   "mcpServers": {
     "atlas_sheets": {
@@ -12,7 +12,9 @@
         "-File",
         "${extensionPath}/scripts/atlas-mcp.ps1",
         "-Surface",
-        "sheets"
+        "sheets",
+        "-Interface",
+        "v2-candidate"
       ]
     }
   }

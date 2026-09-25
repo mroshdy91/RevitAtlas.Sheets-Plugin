@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "atlas-sheets",
-  "version": "0.1.0-beta.4",
+  "version": "2.0.0-alpha.1",
   "description": "Create and edit Revit drawing views, sheets and layouts. Requires Atlas Core.",
   "author": {
     "name": "ROSHDY"
