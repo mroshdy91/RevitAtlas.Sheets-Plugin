@@ -2,6 +2,6 @@
 
 Create and edit Revit drawing views, sheets and layouts. Requires Atlas Core.
 
-Version 2.0.0-alpha.2 is a scoped public alpha for Revit 2025/2026 on Windows x64. Install Atlas Core and the desired specialists from Atlas Marketplace. Core supplies one shared, pinned runtime; specialists add client surfaces and guidance. Ask your agent to set up RevitAtlas and check the connection. Licensed Revit is required.
+Version 2.0.0-alpha.3 is a scoped public alpha for Revit 2025/2026 on Windows x64. Install Atlas Core and the desired specialists from Atlas Marketplace. Core supplies one shared, pinned runtime; specialists add client surfaces and guidance. Ask your agent to set up RevitAtlas and check the connection. Licensed Revit is required.
 
-Read [release scope](RELEASE-READINESS.md), [client routes](CLIENTS.md) and [free use terms](FREE-USE-TERMS.txt). Available tools exceed the qualified scenario set. Atlas MEP is a separate specialist for qualified piping and equipment on Revit 2025 and 2026. Other MEP domains and unlisted actions remain excluded. The 2026 starter catalog currently includes only the qualified Mark tag; broader starter and recipe execution remains pending.
+Read [release scope](RELEASE-READINESS.md), [client routes](CLIENTS.md) and [free use terms](FREE-USE-TERMS.txt). Available tools exceed the qualified scenario set. General MEP is outside these four plugins. Separately qualified Atlas MEP supplies its admitted native scope. The 2026 starter catalog currently includes only the qualified Mark tag; broader starter and recipe execution remains pending.

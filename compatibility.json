@@ -1,7 +1,7 @@
 {
   "format_version": 2,
   "plugin": "atlas-sheets",
-  "version": "2.0.0-alpha.2",
+  "version": "2.0.0-alpha.3",
   "requires": [
     "atlas-core"
   ],
@@ -12,8 +12,8 @@
     "source_contract_sha256": "771b23afafebdec16f91ebc90feadc6928d803e3f9cb1fb89a889e3319ee0499",
     "route_map_sha256": "ba0179bbe7f2eb984b3de5b6e5867a2b742b16b36f1ff40ed71770f4349bb5ac"
   },
-  "runtime_version": "2.0.0-alpha.2",
-  "runtime_manifest_sha256": "235c6e176d70eef109c348a49b6a68458be01589f12745f14af93f65c1fad049",
+  "runtime_version": "2.0.0-alpha.3",
+  "runtime_manifest_sha256": "1708ed39a32aea1bc944842d11795f1b79d3b00dfaf15bed14419df80a743634",
   "qualified_native_revit_versions": [
     "2025",
     "2026"

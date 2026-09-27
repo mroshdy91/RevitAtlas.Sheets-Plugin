@@ -40,7 +40,7 @@ switch($Client){
  'generic' {$result=@{mcpServers=@{$name=$server}}}
  'vscode' {$result=@{servers=@{$name=(@{type='stdio'}+$server)}}}
  'opencode' {$result=@{mcp=@{$name=@{type='local';command=(@('powershell.exe')+$arguments);enabled=$true}}}}
- 'continue' {$result=@{name=('Atlas '+$Surface);version='2.0.0-alpha.2';schema='v1';mcpServers=@((@{name=$name}+$server))}}
+ 'continue' {$result=@{name=('Atlas '+$Surface);version='2.0.0-alpha.3';schema='v1';mcpServers=@((@{name=$name}+$server))}}
 }
 $full=[IO.Path]::GetFullPath($OutputPath)
 $file=[IO.File]::Open($full,[IO.FileMode]::CreateNew,[IO.FileAccess]::Write,[IO.FileShare]::None)
