@@ -2,7 +2,7 @@
 [CmdletBinding()]
 param(
  [Parameter(Mandatory)][ValidateSet('generic','vscode','opencode','continue','antigravity')][string]$Client,
- [Parameter(Mandatory)][ValidateSet('core','family','sheets','annotations')][string]$Surface,
+ [Parameter(Mandatory)][ValidateSet('core','family','sheets','annotations','mep')][string]$Surface,
  [Parameter(Mandatory)][string]$OutputPath
 )
 $ErrorActionPreference='Stop'
@@ -40,7 +40,7 @@ switch($Client){
  'generic' {$result=@{mcpServers=@{$name=$server}}}
  'vscode' {$result=@{servers=@{$name=(@{type='stdio'}+$server)}}}
  'opencode' {$result=@{mcp=@{$name=@{type='local';command=(@('powershell.exe')+$arguments);enabled=$true}}}}
- 'continue' {$result=@{name=('Atlas '+$Surface);version='2.0.0-alpha.1';schema='v1';mcpServers=@((@{name=$name}+$server))}}
+ 'continue' {$result=@{name=('Atlas '+$Surface);version='2.0.0-alpha.2';schema='v1';mcpServers=@((@{name=$name}+$server))}}
 }
 $full=[IO.Path]::GetFullPath($OutputPath)
 $file=[IO.File]::Open($full,[IO.FileMode]::CreateNew,[IO.FileAccess]::Write,[IO.FileShare]::None)

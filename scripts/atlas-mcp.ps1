@@ -1,7 +1,7 @@
 # Public transport adapter only. Native implementation stays in the shared Atlas runtime.
 # Windows PowerShell 5.1+; no SDK, node runtime, token entry, or background service.
 [CmdletBinding()]
-param([Parameter(Mandatory)][ValidateSet('core','family','sheets','annotations')][string]$Surface,
+param([Parameter(Mandatory)][ValidateSet('core','family','sheets','annotations','mep')][string]$Surface,
       [ValidateSet('v1','v2-candidate')][string]$Interface='v1')
 $ErrorActionPreference='Stop'
 $ProgressPreference='SilentlyContinue'

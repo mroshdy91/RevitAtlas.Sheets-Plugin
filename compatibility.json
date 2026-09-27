@@ -1,19 +1,19 @@
 {
   "format_version": 2,
   "plugin": "atlas-sheets",
-  "version": "2.0.0-alpha.1",
+  "version": "2.0.0-alpha.2",
   "requires": [
     "atlas-core"
   ],
   "interface_identity": {
     "interface_version": "2.0-candidate",
-    "catalog_sha256": "c3d8f64b37b967820a6674a2f001deae497c21b1fcfb3836679a6d0771581b36",
-    "catalog_file_sha256": "b3374b6b519d13761c8505f6ef87327065b4cd30a3445cfd76d1424ac05f6e04",
-    "source_contract_sha256": "9676b455b66167fc9492389287de6c5624136edc30522b290b24d86e35dcd569",
+    "catalog_sha256": "3b3dc3181eae96d0643e349b7cf4fc30ecc935755e9fc1b570c705ffa7888cc9",
+    "catalog_file_sha256": "ba3a7c12af376401fe7ba0776b2af953da6524b8e579c14a35efde2508cb5c12",
+    "source_contract_sha256": "771b23afafebdec16f91ebc90feadc6928d803e3f9cb1fb89a889e3319ee0499",
     "route_map_sha256": "ba0179bbe7f2eb984b3de5b6e5867a2b742b16b36f1ff40ed71770f4349bb5ac"
   },
-  "runtime_version": "2.0.0-alpha.1",
-  "runtime_manifest_sha256": "e1a79121920458014d51a234ee3c8dc4dd954dcfa5cb45091c4d279787263593",
+  "runtime_version": "2.0.0-alpha.2",
+  "runtime_manifest_sha256": "235c6e176d70eef109c348a49b6a68458be01589f12745f14af93f65c1fad049",
   "qualified_native_revit_versions": [
     "2025",
     "2026"
